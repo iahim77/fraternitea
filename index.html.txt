@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Fraternitea 🍵</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Fraternitea 🍵</h1>
+
+<div class="products">
+    <div class="product">
+        <h2>Thé Vert</h2>
+        <p>10€</p>
+        <button onclick="addToCart('Thé Vert', 10)">Ajouter au panier</button>
+    </div>
+
+    <div class="product">
+        <h2>Thé Noir</h2>
+        <p>12€</p>
+        <button onclick="addToCart('Thé Noir', 12)">Ajouter au panier</button>
+    </div>
+
+    <div class="product">
+        <h2>Thé à la Menthe</h2>
+        <p>8€</p>
+        <button onclick="addToCart('Thé Menthe', 8)">Ajouter au panier</button>
+    </div>
+</div>
+
+<h2>🛒 Panier</h2>
+<ul id="cart"></ul>
+<p>Total : <span id="total">0</span> €</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
